@@ -1,0 +1,15 @@
+<launch>
+
+  <group>
+    <push_ros_namespace namespace="door_detector" />
+
+    <node
+      pkg="door_detector"
+      exec="door_detector_node"
+      name="door_detector_node"
+      output="screen"
+    />
+  </group>
+
+</launch>
+
