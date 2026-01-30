@@ -6,7 +6,7 @@
     Door detection server using LaserScan for Justina
   </description>
 
-  <maintainer email="you@todo.todo">Your Name</maintainer>
+  <maintainer email="marco.soriano5102@comunidad.unam.mx">Marco Soriano</maintainer>
   <license>Apache-2.0</license>
 
   <!-- Build system -->
