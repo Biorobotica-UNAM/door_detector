@@ -12,5 +12,5 @@ Additionally, it provides a service to query the current door state.
 ## Server
 * `/hardware/door_detector/check` [`std_srvs::srv::Trigger`]
 Returns:
- * `success = true` → Door is open
- * `success = false` → Door is closed 
+  * `success = true` → Door is open
+  * `success = false` → Door is closed 
