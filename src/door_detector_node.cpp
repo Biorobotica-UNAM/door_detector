@@ -13,7 +13,7 @@ namespace door_detector {
 class DoorDetectorNode : public rclcpp::Node {
 public:
   DoorDetectorNode()
-      : Node("door_detector_node"), door_open_(false), door_threshold_(1.00f) {
+      : Node("door_detector_node"), door_open_(false), door_threshold_(1.20f) {
     sub_scan_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
         "/hardware/base/scan", 10,
         std::bind(&DoorDetectorNode::laserCallback, this, _1));
