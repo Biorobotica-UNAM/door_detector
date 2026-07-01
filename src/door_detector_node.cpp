@@ -55,7 +55,7 @@ private:
     }
 
     if (count == 0) {
-      door_open_ = false;
+      door_open_ = true;
       return;
     }
 
